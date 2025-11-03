@@ -4,7 +4,7 @@
     <div class="hero hero-video">
         <!-- Video Start -->
         <div class="hero-bg-video">
-            <video autoplay muted loop id="myVideo"><source src="https://demo.awaikenthemes.com/assets/videos/inspaire-video.mp4" type="video/mp4"></video>
+            <video autoplay muted loop id="myVideo"><source src="assets/images/banner.mp4" type="video/mp4"></video>
         </div>
         <!-- Video End -->
         <div class="container">
@@ -16,14 +16,14 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Ghar Jameen</h3>
                             <h1 class="text-anime-style-2" data-cursor="-opaque">Designing your dream spaces, one room at a time</h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">We specialize in creating personalized, functional, and stylish interiors that reflect your unique vision.</p>
+                            <!-- <p class="wow fadeInUp" data-wow-delay="0.2s">We specialize in creating personalized, functional, and stylish interiors that reflect your unique vision.</p> -->
                         </div>
                         <!-- Section Title End -->
 
                         <!-- Hero Button Start -->
                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="about.html" class="btn-default">explore more</a>
-                            <a href="projects.html" class="btn-default btn-highlighted">view projects</a>
+                            <a href="" class="btn-default">explore more</a>
+                            <!-- <a href="" class="btn-default btn-highlighted">view projects</a> -->
                         </div>
                         <!-- Hero Button End -->
                     </div>
@@ -57,19 +57,13 @@
 
                             <!-- Feedback Counter Start -->
                             <div class="experience-counter">
-                                <h3><span class="counter">15</span>+</h3>
+                                <h3><span class="counter">10</span>+</h3>
                                 <p>Years of experience</p>
                             </div>
                             <!-- Feedback Counter End -->
                         </div>
                         <!-- About Image 2 End -->
-    
-                        <!-- Feedback Counter Start -->
-                        <div class="feedback-counter">
-                            <p><span class="counter">95</span>%</p>
-                            <h3>positive feedback</h3>
-                        </div>
-                        <!-- Feedback Counter End -->
+
                     </div>
                     <!-- About Us Images End -->
                 </div>
@@ -100,7 +94,7 @@
 
                                 <!-- About Us Content Button Start -->
                                 <div class="about-us-content-btn wow fadeInUp" data-wow-delay="0.6s">
-                                    <a href="about.html" class="btn-default">read more</a>
+                                    <a href="" class="btn-default">read more</a>
                                 </div>
                                 <!-- About Us Content Button End -->
                             </div>
@@ -115,13 +109,13 @@
                                     </div>
                                     <div class="about-contact-content">
                                         <p>need any help?</p>
-                                        <h3>+(1) 235 800 999</h3>
+                                        <h3>+91-9999999999</h3>
                                     </div>
                                 </div>
                                 <!-- About Contact Item End -->
 
                                 <!-- About Contact Item Start -->
-                                <div class="about-contact-item wow fadeInUp" data-wow-delay="0.6s">
+                                <!-- <div class="about-contact-item wow fadeInUp" data-wow-delay="0.6s">
                                     <div class="icon-box">
                                         <figure class="image-anime">
                                             <img src="assets/images/author-1.jpg" alt="">
@@ -131,7 +125,7 @@
                                         <h3>leslie alexander</h3>
                                         <p>co founder</p>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- About Contact Item End -->
                             </div>
                             <!-- About Content Info End -->
@@ -296,7 +290,7 @@
                     <div class="service-item wow fadeInUp">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="assets/images/service-1.jpg" alt="">
                                 </figure>
@@ -306,13 +300,13 @@
 
                         <!-- Service Button Start -->
                         <div class="service-btn">
-                            <a href="service-single.html"><img src="assets/images/arrow-white.svg" alt=""></a>
+                            <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
                         </div>
                         <!-- Service Button End -->
 
                         <!-- Service Content Start -->
                         <div class="service-content">
-                            <h3><a href="service-single.html">residential interior design</a></h3>
+                            <h3><a href="">residential interior design</a></h3>
                             <p>We create personalized living spaces that reflect your style and functional needs.</p>
                         </div>
                         <!-- Service Content End -->
@@ -325,7 +319,7 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="assets/images/service-2.jpg" alt="">
                                 </figure>
@@ -335,13 +329,13 @@
 
                         <!-- Service Button Start -->
                         <div class="service-btn">
-                            <a href="service-single.html"><img src="assets/images/arrow-white.svg" alt=""></a>
+                            <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
                         </div>
                         <!-- Service Button End -->
 
                         <!-- Service Content Start -->
                         <div class="service-content">
-                            <h3><a href="service-single.html">commercial interior design</a></h3>
+                            <h3><a href="">commercial interior design</a></h3>
                             <p>Enhancing business environments with professional, functional, and aesthetically.</p>
                         </div>
                         <!-- Service Content End -->
@@ -354,7 +348,7 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="View">
+                            <a href="" data-cursor-text="View">
                                 <figure class="image-anime">
                                     <img src="assets/images/service-3.jpg" alt="">
                                 </figure>
@@ -364,13 +358,13 @@
 
                         <!-- Service Button Start -->
                         <div class="service-btn">
-                            <a href="service-single.html"><img src="assets/images/arrow-white.svg" alt=""></a>
+                            <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
                         </div>
                         <!-- Service Button End -->
 
                         <!-- Service Content Start -->
                         <div class="service-content">
-                            <h3><a href="service-single.html">furniture and decor selection</a></h3>
+                            <h3><a href="">furniture and decor selection</a></h3>
                             <p>Our experts help you choose the perfect furniture and decor complement your style.</p>
                         </div>
                         <!-- Service Content End -->
@@ -381,7 +375,7 @@
                 <div class="col-lg-12">
                     <!-- All Services Button Start -->
                     <div class="all-services-btn wow fadeInUp" data-wow-delay="0.6s">
-                        <a href="services.html" class="btn-default">see all services</a>
+                        <a href="" class="btn-default">see all services</a>
                    </div>
                    <!-- All Services Button End -->
                 </div>
@@ -472,13 +466,13 @@
                                     </div>
                                 
                                     <div class="project-btn">
-                                        <a href="project-single.html"><img src="assets/images/arrow-white.svg" alt=""></a>
+                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
                                     </div>
                                 </div>     
     
                                 <div class="project-content">
                                     <h3>residential spaces</h3>
-                                    <h2><a href="project-single.html">urban retreat: modern design meets comfort</a></h2>
+                                    <h2><a href="">urban retreat: modern design meets comfort</a></h2>
                                 </div>
                             </div>
                             <!-- Project Item End -->
@@ -495,13 +489,13 @@
                                     </div>
                                 
                                     <div class="project-btn">
-                                        <a href="project-single.html"><img src="assets/images/arrow-white.svg" alt=""></a>
+                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
                                     </div>
                                 </div>     
     
                                 <div class="project-content">
                                     <h3>luxury homes</h3>
-                                    <h2><a href="project-single.html">luxurious loft: industrial chic for living</a></h2>
+                                    <h2><a href="">luxurious loft: industrial chic for living</a></h2>
                                 </div>
                             </div>
                             <!-- Project Item End -->
@@ -518,13 +512,13 @@
                                     </div>
                                 
                                     <div class="project-btn">
-                                        <a href="project-single.html"><img src="assets/images/arrow-white.svg" alt=""></a>
+                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
                                     </div>
                                 </div>     
     
                                 <div class="project-content">
                                     <h3>outdoor living spaces</h3>
-                                    <h2><a href="project-single.html">coastal vibes: serenity by the sea</a></h2>
+                                    <h2><a href="">coastal vibes: serenity by the sea</a></h2>
                                 </div>
                             </div>
                             <!-- Project Item End -->
@@ -541,13 +535,13 @@
                                     </div>
                                 
                                     <div class="project-btn">
-                                        <a href="project-single.html"><img src="assets/images/arrow-white.svg" alt=""></a>
+                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
                                     </div>
                                 </div>     
     
                                 <div class="project-content">
                                     <h3>modern designs</h3>
-                                    <h2><a href="project-single.html">minimalist haven: simple, clean, inviting spaces</a></h2>
+                                    <h2><a href="">minimalist haven: simple, clean, inviting spaces</a></h2>
                                 </div>
                             </div>
                             <!-- Project Item End -->
@@ -939,7 +933,7 @@
                         <!-- Post Featured Image Start-->
                         <div class="post-featured-image">
                             <figure>
-                                <a href="blog-single.html" class="image-anime" data-cursor-text="View">
+                                <a href="" class="image-anime" data-cursor-text="View">
                                     <img src="assets/images/post-1.jpg" alt="">
                                 </a>
                             </figure>
@@ -950,13 +944,13 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h3><a href="blog-single.html">How Does One Go About a Buying Furniture?</a></h3>
+                                <h3><a href="">How Does One Go About a Buying Furniture?</a></h3>
                             </div>
                             <!-- Post Item Content End -->
 
                             <!-- Blog Item Button Start -->
                             <div class="post-item-btn">
-                                <a href="blog-single.html" class="post-btn">read more</a>
+                                <a href="" class="post-btn">read more</a>
                             </div>
                             <!-- Blog Item Button End -->
                         </div>
@@ -971,7 +965,7 @@
                         <!-- Post Featured Image Start-->
                         <div class="post-featured-image">
                             <figure>
-                                <a href="blog-single.html" class="image-anime" data-cursor-text="View">
+                                <a href="" class="image-anime" data-cursor-text="View">
                                     <img src="assets/images/post-2.jpg" alt="">
                                 </a>
                             </figure>
@@ -982,13 +976,13 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h3><a href="blog-single.html">Innovative Décor Ideas Shaping Homes Today</a></h3>
+                                <h3><a href="">Innovative Décor Ideas Shaping Homes Today</a></h3>
                             </div>
                             <!-- Post Item Content End -->
 
                             <!-- Blog Item Button Start -->
                             <div class="post-item-btn">
-                                <a href="blog-single.html" class="post-btn">read more</a>
+                                <a href="" class="post-btn">read more</a>
                             </div>
                             <!-- Blog Item Button End -->
                         </div>
@@ -1003,7 +997,7 @@
                         <!-- Post Featured Image Start-->
                         <div class="post-featured-image">
                             <figure>
-                                <a href="blog-single.html" class="image-anime" data-cursor-text="View">
+                                <a href="" class="image-anime" data-cursor-text="View">
                                     <img src="assets/images/post-3.jpg" alt="">
                                 </a>
                             </figure>
@@ -1014,13 +1008,13 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h3><a href="blog-single.html">Design Industry Updates You Should Know About</a></h3>
+                                <h3><a href="">Design Industry Updates You Should Know About</a></h3>
                             </div>
                             <!-- Post Item Content End -->
 
                             <!-- Blog Item Button Start -->
                             <div class="post-item-btn">
-                                <a href="blog-single.html" class="post-btn">read more</a>
+                                <a href="" class="post-btn">read more</a>
                             </div>
                             <!-- Blog Item Button End -->
                         </div>
@@ -1032,7 +1026,7 @@
                 <div class="col-lg-12">
                     <!-- Our Blog Footer Start -->
                     <div class="our-blog-footer wow fadeInUp" data-wow-delay="0.6s">
-                        <a href="blog.html" class="btn-default">See All Blogs</a>
+                        <a href="" class="btn-default">See All Blogs</a>
                     </div>
                     <!-- Our Blog Footer End -->
                 </div>
