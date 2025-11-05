@@ -36,7 +36,7 @@
                 <div class="col-lg-3 col-md-6">
                     <!-- Footer Links Start -->
                      <div class="footer-links">
-                        <h3>information</h3>
+                        <h3>Quick Links</h3>
                         <ul>
                             <li><a href="">about Us</a></li>
                             <li><a href="">Our Blogs</a></li>
@@ -55,6 +55,10 @@
                         <h3>Property Types</h3>
                         <ul>
                             <li><a href="">Residential</a></li>
+                            <li><a href="">Commercial</a></li>
+                            <li><a href="">SCO Plots</a></li>
+                            <li><a href="">Office Space</a></li>
+                            <li><a href="">Independent Floor</a></li>
                         </ul>
                      </div>
                     <!-- Footer Links End -->

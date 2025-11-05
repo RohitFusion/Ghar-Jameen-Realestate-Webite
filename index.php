@@ -9,23 +9,31 @@
         <!-- Video End -->
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-10">
+                <div class="col-lg-11 m-auto">
                     <!-- Hero Content Start -->
                     <div class="hero-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h3 class="wow fadeInUp">Ghar Jameen</h3>
-                            <h1 class="text-anime-style-2" data-cursor="-opaque">Designing your dream spaces, one room at a time</h1>
-                            <!-- <p class="wow fadeInUp" data-wow-delay="0.2s">We specialize in creating personalized, functional, and stylish interiors that reflect your unique vision.</p> -->
+                            <h1 class="text-anime-style-2" data-cursor="-opaque">Where Real Estate Dreams Become Reality</h1>
                         </div>
                         <!-- Section Title End -->
-
-                        <!-- Hero Button Start -->
-                        <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="" class="btn-default">explore more</a>
-                            <!-- <a href="" class="btn-default btn-highlighted">view projects</a> -->
+                        <div class="filters">
+                            <div class="filter-group">
+                                <select id="propertyTypeSelect" readonly="">
+                                    <option value="">Select City</option>
+                                    <option value="">Sapla</option>
+                                    <option value="">Jind</option>
+                                    <option value="">Bhadurgarh</option>
+                                    <option value="">Rothak</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <input type="text" name="prop_name" placeholder="Any Project...">
+                            </div>
+                            <div class="search-button">
+                                <button type="submit" class="btn-default">Show Options</button>
+                            </div>
                         </div>
-                        <!-- Hero Button End -->
                     </div>
                     <!-- Hero Content End -->
                 </div>
@@ -138,6 +146,363 @@
         </div>
     </div>
     <!-- About Us Section End -->
+
+
+    <!-- Our Services Section Start -->
+    <div class="our-services">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-6">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">our services</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Comprehensive  <span>Real Estate Solutions</span></h2>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- Section Title Content Start -->
+                    <div class="section-title-content">
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">We offer complete real estate solutions — from premium residential spaces to efficient commercial properties and secure plot deals, ensuring trust, quality, and satisfaction at every step.</p>
+                    </div>
+                    <!-- Section Title Content End -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <!-- Service Item Start -->
+                    <div class="service-item wow fadeInUp">
+                        <!-- Service Image Start -->
+                        <div class="service-image">
+                            <a href="" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="https://myrealestate.in/storage/2021/05/New-Haven.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- Service Image End -->
+
+                        <!-- Service Button Start -->
+                        <div class="service-btn">
+                            <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
+                        </div>
+                        <!-- Service Button End -->
+
+                        <!-- Service Content Start -->
+                        <div class="service-content">
+                            <h3><a href="">Residential</a></h3>
+                            <p>Expert residential services for comfortable, secure, and stylish living spaces tailored to your lifestyle.</p>
+                        </div>
+                        <!-- Service Content End -->
+                    </div>
+                    <!-- Service Item End -->
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <!-- Service Item Start -->
+                    <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
+                        <!-- Service Image Start -->
+                        <div class="service-image">
+                            <a href="" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="https://www.omaxe.com/projectgallery/gallery_1671015954304.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- Service Image End -->
+
+                        <!-- Service Button Start -->
+                        <div class="service-btn">
+                            <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
+                        </div>
+                        <!-- Service Button End -->
+
+                        <!-- Service Content Start -->
+                        <div class="service-content">
+                            <h3><a href="">Commercial</a></h3>
+                            <p>Professional commercial solutions that enhance business efficiency, productivity, and long-term growth potential.</p>
+                        </div>
+                        <!-- Service Content End -->
+                    </div>
+                    <!-- Service Item End -->
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <!-- Service Item Start -->
+                    <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
+                        <!-- Service Image Start -->
+                        <div class="service-image">
+                            <a href="" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img src="https://metarealty.in/wp-content/uploads/2024/09/gated-community-open-plots-services.jpg" alt="">
+                                </figure>
+                            </a>
+                        </div>
+                        <!-- Service Image End -->
+
+                        <!-- Service Button Start -->
+                        <div class="service-btn">
+                            <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
+                        </div>
+                        <!-- Service Button End -->
+
+                        <!-- Service Content Start -->
+                        <div class="service-content">
+                            <h3><a href="">Plots</a></h3>
+                            <p>Reliable plot services for buying, selling, and developing land with complete transparency and trust.</p>
+                        </div>
+                        <!-- Service Content End -->
+                    </div>
+                    <!-- Service Item End -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Our Services Section End -->
+
+       <!-- Our Project Start -->
+       <div class="our-project">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-12">
+                    <!-- Section Title Start -->
+                    <div class="section-title text-center">
+                        <h3 class="wow fadeInUp">Properties</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Featured Properties</h2>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Our Project Nav start -->
+                    <div class="our-Project-nav wow fadeInUp" data-wow-delay="0.4s">
+                        <ul>
+                            <li><a href="#" class="active-btn" data-filter="*">all</a></li>
+                            <li><a href="#" data-filter=".residential">Residential</a></li>
+                            <li><a href="#" data-filter=".commercial">Commercial</a></li>
+                            <li><a href="#" data-filter=".plot">Plots</a></li>
+                        </ul>
+                    </div>
+                    <!-- Our Project Nav End -->
+                </div>
+    
+                <div class="col-lg-12">
+                    <!-- Project Item Boxes start -->
+                    <div class="row project-item-boxes align-items-center">
+
+                        <div class="col-md-3 project-item-box residential">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp">
+                                <div class="project-image">
+                                    <div class="project-featured-image">
+                                        <figure class="image-anime">
+                                            <img src="https://www.deedivinepropinfra.com/admin/uploads/properties/1172181599.webp" alt="">
+                                        </figure>
+                                    </div>
+                                
+                                    <div class="project-btn">
+                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
+                                    </div>
+                                </div>     
+    
+                                <div class="project-content">
+                                    <h3><i class="fa-solid fa-location-dot"></i> Sector 59,Gurgaon</h3>
+                                    <h2><a href="">4S The Aurrum</a></h2>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                        <div class="col-md-3 project-item-box residential">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp">
+                                <div class="project-image">
+                                    <div class="project-featured-image">
+                                        <figure class="image-anime">
+                                            <img src="https://www.deedivinepropinfra.com/admin/uploads/properties/613117590.webp" alt="">
+                                        </figure>
+                                    </div>
+                                
+                                    <div class="project-btn">
+                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
+                                    </div>
+                                </div>     
+    
+                                <div class="project-content">
+                                    <h3><i class="fa-solid fa-location-dot"></i> Sector 102 ,Gurgaon</h3>
+                                    <h2><a href="">BPTP Lutyens</a></h2>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                        <div class="col-md-3 project-item-box commercial">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp">
+                                <div class="project-image">
+                                    <div class="project-featured-image">
+                                        <figure class="image-anime">
+                                            <img src="https://www.vintagevista.co.in/admin/uploads/properties/1230924066.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                
+                                    <div class="project-btn">
+                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
+                                    </div>
+                                </div>     
+    
+                                <div class="project-content">
+                                    <h3><i class="fa-solid fa-location-dot"></i> Sector 19,Gurgaon</h3>
+                                    <h2><a href="">Omaxe The State, Dwarka</a></h2>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                        <div class="col-md-3 project-item-box residential">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp">
+                                <div class="project-image">
+                                    <div class="project-featured-image">
+                                        <figure class="image-anime">
+                                            <img src="https://www.deedivinepropinfra.com/admin/uploads/properties/1952951217.webp" alt="">
+                                        </figure>
+                                    </div>
+                                
+                                    <div class="project-btn">
+                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
+                                    </div>
+                                </div>     
+    
+                                <div class="project-content">
+                                    <h3><i class="fa-solid fa-location-dot"></i> Dwarka Expressway</h3>
+                                    <h2><a href="">M3M Golf Hills</a></h2>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+
+                        <div class="col-md-3 project-item-box commercial">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp">
+                                <div class="project-image">
+                                    <div class="project-featured-image">
+                                        <figure class="image-anime">
+                                            <img src="https://www.vintagevista.co.in/admin/uploads/properties/1571675907.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                
+                                    <div class="project-btn">
+                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
+                                    </div>
+                                </div>     
+    
+                                <div class="project-content">
+                                    <h3><i class="fa-solid fa-location-dot"></i> Sector 102, Gurgaon</h3>
+                                    <h2><a href="">Satya The Hive</a></h2>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                        <div class="col-md-3 project-item-box residential">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp">
+                                <div class="project-image">
+                                    <div class="project-featured-image">
+                                        <figure class="image-anime">
+                                            <img src="https://www.deedivinepropinfra.com/admin/uploads/properties/384524635.webp" alt="">
+                                        </figure>
+                                    </div>
+                                
+                                    <div class="project-btn">
+                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
+                                    </div>
+                                </div>     
+    
+                                <div class="project-content">
+                                    <h3><i class="fa-solid fa-location-dot"></i> Sector 77 Gurgaon</h3>
+                                    <h2><a href="">DLF Privana South</a></h2>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                        <div class="col-md-3 project-item-box commercial">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp">
+                                <div class="project-image">
+                                    <div class="project-featured-image">
+                                        <figure class="image-anime">
+                                            <img src="https://www.vintagevista.co.in/admin/uploads/properties/356833549.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                
+                                    <div class="project-btn">
+                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
+                                    </div>
+                                </div>     
+    
+                                <div class="project-content">
+                                    <h3><i class="fa-solid fa-location-dot"></i> Sector 57</h3>
+                                    <h2><a href="">M3M Paragon 57</a></h2>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+
+                        <div class="col-md-3 project-item-box plot">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp">
+                                <div class="project-image">
+                                    <div class="project-featured-image">
+                                        <figure class="image-anime">
+                                            <img src="https://www.vintagevista.co.in/admin/uploads/properties/468536420.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                
+                                    <div class="project-btn">
+                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
+                                    </div>
+                                </div>     
+    
+                                <div class="project-content">
+                                    <h3><i class="fa-solid fa-location-dot"></i> Sector 67, Gurgaon</h3>
+                                    <h2><a href="">EMAAR EBD 65</a></h2>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                        <div class="col-md-3 project-item-box plot">
+                            <!-- Project Item Start -->
+                            <div class="project-item wow fadeInUp">
+                                <div class="project-image">
+                                    <div class="project-featured-image">
+                                        <figure class="image-anime">
+                                            <img src="https://www.vintagevista.co.in/admin/uploads/properties/526587811.jpg" alt="">
+                                        </figure>
+                                    </div>
+                                
+                                    <div class="project-btn">
+                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
+                                    </div>
+                                </div>     
+    
+                                <div class="project-content">
+                                    <h3><i class="fa-solid fa-location-dot"></i> Sector 114, Gurgaon</h3>
+                                    <h2><a href="">Reach SCO 114</a></h2>
+                                </div>
+                            </div>
+                            <!-- Project Item End -->
+                        </div>
+                        
+                    </div>
+                    <!-- Project Item Boxes End -->
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Our Project End -->
 
     <!-- Why Choose Us Section Start -->
     <div class="why-choose-us">
@@ -262,533 +627,6 @@
     </div>
     <!-- Why Choose Us Section End -->
 
-    <!-- Our Services Section Start -->
-    <div class="our-services">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">our services</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Innovative design services for <span>every need</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Section Title Content Start -->
-                    <div class="section-title-content">
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">We offer a range of bespoke interior design services tailored to your unique needs. From concept development to final installation.</p>
-                    </div>
-                    <!-- Section Title Content End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp">
-                        <!-- Service Image Start -->
-                        <div class="service-image">
-                            <a href="" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="assets/images/service-1.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- Service Image End -->
-
-                        <!-- Service Button Start -->
-                        <div class="service-btn">
-                            <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
-                        </div>
-                        <!-- Service Button End -->
-
-                        <!-- Service Content Start -->
-                        <div class="service-content">
-                            <h3><a href="">residential interior design</a></h3>
-                            <p>We create personalized living spaces that reflect your style and functional needs.</p>
-                        </div>
-                        <!-- Service Content End -->
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
-                        <!-- Service Image Start -->
-                        <div class="service-image">
-                            <a href="" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="assets/images/service-2.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- Service Image End -->
-
-                        <!-- Service Button Start -->
-                        <div class="service-btn">
-                            <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
-                        </div>
-                        <!-- Service Button End -->
-
-                        <!-- Service Content Start -->
-                        <div class="service-content">
-                            <h3><a href="">commercial interior design</a></h3>
-                            <p>Enhancing business environments with professional, functional, and aesthetically.</p>
-                        </div>
-                        <!-- Service Content End -->
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
-                        <!-- Service Image Start -->
-                        <div class="service-image">
-                            <a href="" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="assets/images/service-3.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- Service Image End -->
-
-                        <!-- Service Button Start -->
-                        <div class="service-btn">
-                            <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
-                        </div>
-                        <!-- Service Button End -->
-
-                        <!-- Service Content Start -->
-                        <div class="service-content">
-                            <h3><a href="">furniture and decor selection</a></h3>
-                            <p>Our experts help you choose the perfect furniture and decor complement your style.</p>
-                        </div>
-                        <!-- Service Content End -->
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-12">
-                    <!-- All Services Button Start -->
-                    <div class="all-services-btn wow fadeInUp" data-wow-delay="0.6s">
-                        <a href="" class="btn-default">see all services</a>
-                   </div>
-                   <!-- All Services Button End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Services Section End -->
-
-    <!-- Intro Video Section Start -->
-    <div class="intro-video">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Intro Video Image Start -->
-                    <div class="intro-video-box">
-                        <!-- Intro Image Start -->
-                        <div class="intro-video-image">
-                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">
-                                <figure class="image-anime">
-                                    <img src="assets/images/intro-video-bg.jpg" alt="">
-                                </figure>
-                            </a>                            
-                        </div>
-                        <!-- Intro Image End -->
-
-                        <!-- Video Play Button Start -->
-                        <div class="video-play-button">
-                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">play</a>
-                        </div>
-                        <!-- Video Play Button End -->
-                    </div>
-                    <!-- Intro Video Btn End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Intro Video Section End -->
-
-    <!-- Our Project Start -->
-    <div class="our-project">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-5">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">latest project</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Creative projects that define<span> our style</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-lg-7">
-                    <!-- Section Title Content Start -->
-                    <div class="section-title-content">
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">Our portfolio showcases a diverse range of projects, from beautifully crafted residential spaces functional and stylish commercial interiors</p>
-                    </div>
-                    <!-- Section Title Content End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Our Project Nav start -->
-                    <div class="our-Project-nav wow fadeInUp" data-wow-delay="0.4s">
-                        <ul>
-                            <li><a href="#" class="active-btn" data-filter="*">all</a></li>
-                            <li><a href="#" data-filter=".architecture">architecture</a></li>
-                            <li><a href="#" data-filter=".interior">interior</a></li>
-                            <li><a href="#" data-filter=".bedroom">bedroom</a></li>
-                            <li><a href="#" data-filter=".furniture">furniture</a></li>
-                            <li><a href="#" data-filter=".kitchen">kitchen</a></li>
-                        </ul>
-                    </div>
-                    <!-- Our Project Nav End -->
-                </div>
-    
-                <div class="col-lg-12">
-                    <!-- Project Item Boxes start -->
-                    <div class="row project-item-boxes align-items-center">
-                        <div class="col-md-6 project-item-box architecture bedroom">
-                            <!-- Project Item Start -->
-                            <div class="project-item wow fadeInUp">
-                                <div class="project-image">
-                                    <div class="project-featured-image">
-                                        <figure class="image-anime">
-                                            <img src="assets/images/project-1.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                
-                                    <div class="project-btn">
-                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
-                                    </div>
-                                </div>     
-    
-                                <div class="project-content">
-                                    <h3>residential spaces</h3>
-                                    <h2><a href="">urban retreat: modern design meets comfort</a></h2>
-                                </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-    
-                        <div class="col-md-6 project-item-box interior kitchen">
-                            <!-- Project Item Start -->
-                            <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="project-image">
-                                    <div class="project-featured-image">
-                                        <figure class="image-anime">
-                                            <img src="assets/images/project-2.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                
-                                    <div class="project-btn">
-                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
-                                    </div>
-                                </div>     
-    
-                                <div class="project-content">
-                                    <h3>luxury homes</h3>
-                                    <h2><a href="">luxurious loft: industrial chic for living</a></h2>
-                                </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-    
-                        <div class="col-md-6 project-item-box furniture architecture">
-                            <!-- Project Item Start -->
-                            <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="project-image">
-                                    <div class="project-featured-image">
-                                        <figure class="image-anime">
-                                            <img src="assets/images/project-3.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                
-                                    <div class="project-btn">
-                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
-                                    </div>
-                                </div>     
-    
-                                <div class="project-content">
-                                    <h3>outdoor living spaces</h3>
-                                    <h2><a href="">coastal vibes: serenity by the sea</a></h2>
-                                </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-    
-                        <div class="col-md-6 project-item-box kitchen bedroom">
-                            <!-- Project Item Start -->
-                            <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="project-image">
-                                    <div class="project-featured-image">
-                                        <figure class="image-anime">
-                                            <img src="assets/images/project-4.jpg" alt="">
-                                        </figure>
-                                    </div>
-                                
-                                    <div class="project-btn">
-                                        <a href=""><img src="assets/images/arrow-white.svg" alt=""></a>
-                                    </div>
-                                </div>     
-    
-                                <div class="project-content">
-                                    <h3>modern designs</h3>
-                                    <h2><a href="">minimalist haven: simple, clean, inviting spaces</a></h2>
-                                </div>
-                            </div>
-                            <!-- Project Item End -->
-                        </div>
-                    </div>
-                    <!-- Project Item Boxes End -->
-                </div>
-            </div>
-        </div>
-     </div>
-    <!-- Our Project End -->
-
-    <!-- How We Work Start -->
-    <div class="how-we-work">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Section Title Start -->
-                    <div class="section-title dark-section">
-                        <h3 class="wow fadeInUp">how we work</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">From concept to completion in<span> our work</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Section Title Content Start -->
-                    <div class="section-title-content dark-section">
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">Our comprehensive approach guides you through each phase of the design process, from initial brainstorming and conceptualization.</p>
-                    </div>
-                    <!-- Section Title Content End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- How We Work List Start -->
-                    <div class="how-we-work-list">
-                        <!-- How We Item Start -->
-                        <div class="how-we-work-item wow fadeInUp">
-                            <div class="icon-box">
-                                <img src="assets/images/icon-how-we-work-1.svg" alt="">
-                            </div>
-                            <div class="how-we-work-content">
-                                <h3>01. initial consultation</h3>
-                                <p>We start with a one-on meeting to understand your vision preferences and requirement.</p>
-                            </div>
-                        </div>
-                        <!-- How We Item End -->
-
-                        <!-- How We Item Start -->
-                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="icon-box">
-                                <img src="assets/images/icon-how-we-work-2.svg" alt="">
-                            </div>
-                            <div class="how-we-work-content">
-                                <h3>02. design planning</h3>
-                                <p>This involves selecting materials, and layouts, furnishings, as well as creating 3D renderings.</p>
-                            </div>
-                        </div>
-                        <!-- How We Item End -->
-
-                        <!-- How We Item Start -->
-                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="icon-box">
-                                <img src="assets/images/icon-how-we-work-3.svg" alt="">
-                            </div>
-                            <div class="how-we-work-content">
-                                <h3>03. project execution</h3>
-                                <p>With the design plans in this place, we manage and coordinate all aspects of the projects.</p>
-                            </div>
-                        </div>
-                        <!-- How We Item End -->
-
-                        <!-- How We Item Start -->
-                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="icon-box">
-                                <img src="assets/images/icon-how-we-work-4.svg" alt="">
-                            </div>
-                            <div class="how-we-work-content">
-                                <h3>04. final review</h3>
-                                <p>After completing project we conduct a thorough walkthrough with you to review the space.</p>
-                            </div>
-                        </div>
-                        <!-- How We Item End -->
-                    </div>
-                    <!-- How We Work List End -->
-
-                    <!-- How Work Company Slider Start -->
-                    <div class="how-work-company-slider">
-                        <div class="swiper">
-                            <div class="swiper-wrapper">
-                                <!-- Company Support Logo Start -->
-                                <div class="swiper-slide">
-                                    <div class="company-logo">
-                                        <img src="assets/images/company-logo-1.svg" alt="">
-                                    </div>
-                                </div>
-                                <!-- Company Support Logo End -->
-
-                                <!-- Company Support Logo Start -->
-                                <div class="swiper-slide">
-                                    <div class="company-logo">
-                                        <img src="assets/images/company-logo-2.svg" alt="">
-                                    </div>
-                                </div>
-                                <!-- Company Support Logo End -->
-
-                                <!-- Company Support Logo Start -->
-                                <div class="swiper-slide">
-                                    <div class="company-logo">
-                                        <img src="assets/images/company-logo-3.svg" alt="">
-                                    </div>
-                                </div>
-                                <!-- Company Support Logo End -->
-                                
-                                <!-- Company Support Logo Start -->
-                                <div class="swiper-slide">
-                                    <div class="company-logo">
-                                        <img src="assets/images/company-logo-4.svg" alt="">
-                                    </div>
-                                </div>
-                                <!-- Company Support Logo End -->
-                                
-                                <!-- Company Support Logo Start -->
-                                <div class="swiper-slide">
-                                    <div class="company-logo">
-                                        <img src="assets/images/company-logo-5.svg" alt="">
-                                    </div>
-                                </div>
-                                <!-- Company Support Logo End -->
-                                
-                                <!-- Company Support Logo Start -->
-                                <div class="swiper-slide">
-                                    <div class="company-logo">
-                                        <img src="assets/images/company-logo-1.svg" alt="">
-                                    </div>
-                                </div>
-                                <!-- Company Support Logo End -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- How Work Company Slider End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- How We Work End -->
-
-    <!-- Our Skill Start -->
-    <div class="our-skill">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Our Skill Content Start -->
-                    <div class="our-skill-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">our skills</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Skills that shape your<span> dream home</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Our dedicated team of designers works closely with you to understand your vision and bring it to life with thoughtful attention to detail.</p>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- About SkillBar Start -->
-                        <div class="our-skillbar">
-                            <!-- Skills Progress Bar Start -->
-                            <div class="skills-progress-bar">
-                                <!-- Skill Item Start -->
-                                <div class="skillbar" data-percent="95%">
-                                    <div class="skill-data">
-                                        <div class="skill-title">space planning and layout</div>
-                                        <div class="skill-no">95%</div>
-                                    </div>
-                                    <div class="skill-progress">
-                                        <div class="count-bar"></div>
-                                    </div>
-                                </div>
-                                <!-- Skill Item End -->
-                            </div>
-                            <!-- Skills Progress Bar End -->
-                        
-                            <!-- Skills Progress Bar Start -->
-                            <div class="skills-progress-bar">
-                                <!-- Skill Item Start -->
-                                <div class="skillbar" data-percent="85%">
-                                    <div class="skill-data">
-                                        <div class="skill-title">project challenges and solutions</div>
-                                        <div class="skill-no">85%</div>
-                                    </div>
-                                    <div class="skill-progress">
-                                        <div class="count-bar"></div>
-                                    </div>
-                                </div>
-                                <!-- Skill Item End -->
-                            </div>
-                            <!-- Skills Progress Bar End -->
-                            
-                            <!-- Skills Progress Bar Start -->
-                            <div class="skills-progress-bar">
-                                <!-- Skill Item Start -->
-                                <div class="skillbar" data-percent="75%">
-                                    <div class="skill-data">
-                                        <div class="skill-title">sustainability and eco-friendly features</div>
-                                        <div class="skill-no">75%</div>
-                                    </div>
-                                    <div class="skill-progress">
-                                        <div class="count-bar"></div>
-                                    </div>
-                                </div>
-                                <!-- Skill Item End -->
-                            </div>
-                            <!-- Skills Progress Bar End -->
-                        </div>
-                        <!-- About SkillBar End -->
-                    </div>
-                    <!-- Our Skill Content End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Our Skill Image Start -->
-                    <div class="our-skill-image">
-                        <div class="our-skill-img-1">
-                            <figure class="image-anime reveal">
-                                <img src="assets/images/our-skill-img-1.jpg" alt="">
-                            </figure>
-                        </div>
-
-                        <div class="our-skill-img-2">
-                            <figure class="image-anime reveal">
-                                <img src="assets/images/our-skill-img-2.jpg" alt="">
-                            </figure>
-                        </div>
-
-                        <div class="our-skill-img-3">
-                            <figure class="image-anime reveal">
-                                <img src="assets/images/our-skill-img-3.jpg" alt="">
-                            </figure>
-                        </div>
-                    </div>
-                    <!-- Our Skill Image End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Skill End -->
-
     <!-- Our Testimonial Start -->
     <div class="our-testimonials">
         <div class="container-fluid">
@@ -829,18 +667,12 @@
                                             </div>                                        
                                             <div class="testimonial-body">
                                                 <div class="testimonial-content">
-                                                    <p>I couldn't be happier with the transformation of my home! From our very first consultation, the team at took the time to understand my vision and preferences.</p>
+                                                    <p>I had an excellent experience with Ghar Jameen. From the very first meeting, the team was professional, attentive, and made the entire home-buying process so much easier. They took the time to understand exactly what I was looking for and found me the perfect property within my budget. Communication was top-notch, and I never felt out of the loop. I highly recommend them to anyone looking for a reliable real estate company.</p>
                                                 </div>
                                             </div>
-                                            <div class="testimonial-body">
-                                                <div class="author-image">
-                                                    <figure class="image-anime">
-                                                        <img src="assets/images/author-1.jpg" alt="">
-                                                    </figure>
-                                                </div>            
+                                            <div class="testimonial-body">      
                                                 <div class="author-content">
-                                                    <h3>arlene mcCoy</h3>
-                                                    <p>co. founder</p>
+                                                    <h3>Ayesha Malik</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -858,17 +690,33 @@
                                                 <i class="fa-solid fa-star"></i>
                                             </div>                                        
                                             <div class="testimonial-content">
-                                                <p>I couldn't be happier with the transformation of my home! From our very first consultation, the team at took the time to understand my vision and preferences.</p>
+                                                <p>Ghar Jameen made selling my property a breeze! Their marketing strategy was spot-on, and they were able to sell my home quickly and at a great price. The team guided me through every step and made sure I understood all the paperwork and legalities. Their professionalism and transparency made all the difference. Thank you for helping me get the best deal possible!</p>
                                             </div>
-                                            <div class="testimonial-body">
-                                                <div class="author-image">
-                                                    <figure class="image-anime">
-                                                        <img src="assets/images/author-1.jpg" alt="">
-                                                    </figure>
-                                                </div>            
+                                            <div class="testimonial-body">         
                                                 <div class="author-content">
-                                                    <h3>arlene mcCoy</h3>
-                                                    <p>co founder</p>
+                                                    <h3>Ravi Kumar</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Testimonial Slide End -->
+
+                                    <!-- Testimonial Slide Start -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonial-item">	
+                                            <div class="testimonial-rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>                                        
+                                            <div class="testimonial-content">
+                                                <p>I can't thank Ghar Jameen enough for helping me find my dream apartment! As a first-time buyer, I was nervous about the process, but the team was so patient and supportive. They answered all my questions, provided valuable advice, and never pressured me. They made sure everything was handled smoothly from start to finish. I’m so happy with my new place!</p>
+                                            </div>
+                                            <div class="testimonial-body">         
+                                                <div class="author-content">
+                                                    <h3>Sana Shahid</h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -879,23 +727,6 @@
                         </div>
                         <!-- Testimonial Slider End -->
 
-                        <!-- Testimonial Rating Counter Start -->
-                        <div class="testimonial-rating-counter">
-                            <div class="rating-counter">
-                                <h2><span class="counter">4.82</span></h2>
-                            </div>
-                            <div class="testimonial-rating-content">
-                                <div class="testimonial-client-rating">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                                <p>2,488 reviews</p>
-                            </div>
-                        </div>
-                        <!-- Testimonial Rating Counter End -->
                     </div>
                     <!-- Our Testimonial Content End -->
                 </div>
@@ -911,18 +742,10 @@
                 <div class="col-lg-6">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">latest news</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Your guide to</span> inspired interiors</h2>
+                        <h3 class="wow fadeInUp">latest Blogs</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Explore Our Latest Blogs </span> & Property Tips</h2>
                     </div>
                     <!-- Section Title End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Section Title Content Start -->
-                    <div class="section-title-content">
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">Your journey to inspired interiors begins here. Our blog offers a wealth of resources, including design tips, trend analyses.</p>
-                    </div>
-                    <!-- Section Title Content End -->
                 </div>
             </div>
 

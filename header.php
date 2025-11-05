@@ -62,6 +62,9 @@
                                 <li class="nav-item submenu"><a class="nav-link" href="#">Projects</a>
                                     <ul>                                        
                                         <li class="nav-item"><a class="nav-link" href="">Residential</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="">Commercial</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="">SCO Plots</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="">Office Space</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
