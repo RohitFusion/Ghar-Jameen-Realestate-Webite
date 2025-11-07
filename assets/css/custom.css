@@ -390,8 +390,8 @@ body{
 
 .section-title h2{
 	font-size: 46px;
-	font-weight: 700;
-	letter-spacing: -0.02em;
+	font-weight: 600;
+	/* letter-spacing: -0.02em; */
 	margin-bottom: 0;
 	cursor: none;
 }
@@ -1139,9 +1139,10 @@ header.main-header .header-sticky.active .navbar{
 }
 
 .why-choose-item-content h3{
-	font-size: 20px;
+	font-size: 19px;
 	text-transform: capitalize;
 	margin-bottom: 10px;
+	font-weight: 500;
 }
 
 .why-choose-item-content p{
@@ -1887,6 +1888,7 @@ header.main-header .header-sticky.active .navbar{
 	color: var(--primary-color);
     font-size: 20px;
 	line-height: 1.4em;
+	font-weight: 500;
 }
 
 .post-item-content h3 a{
@@ -2189,16 +2191,17 @@ header.main-header .header-sticky.active .navbar{
 
 .about-facility-list{
 	margin-top: 0px;
-	display: flex;
+	/* display: flex;
 	flex-wrap: wrap;
-	gap: 30px;
+	gap: 30px; */
 }
 
 .about-facility-item{
-	width: calc(24% - 20px);
+	/* width: calc(24% - 20px); */
 	/* display: flex; */
 	box-shadow: 0 0 10px #dad7d778;
     padding: 15px;
+	height: 100%;
 }
 
 .about-facility-item .icon-box{

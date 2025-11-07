@@ -114,65 +114,73 @@
     
     <div class="about-us page-about-us pb-0">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
+            <!-- <div class="row align-items-center">
+                <div class="col-lg-12"> -->
                     <!-- About Facility List Start -->
-                    <div class="about-facility-list">
+                    <div class="about-facility-list row">
                         <!-- About Facility Item Start -->
-                        <div class="about-facility-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                            <div class="icon-box">
-                                <img src="https://html.awaikenthemes.com/inspaire/images/icon-about-facility-2.svg" alt="">
-                            </div>
+                        <div class="col-lg-3">
+                            <div class="about-facility-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                <div class="icon-box">
+                                    <img src="https://html.awaikenthemes.com/inspaire/images/icon-about-facility-2.svg" alt="">
+                                </div>
 
-                            <div class="about-facility-content">
-                                <h3>Expert Market Knowledge</h3>
-                                <p>In-depth understanding of local trends.</p>
+                                <div class="about-facility-content">
+                                    <h3>Expert Market Knowledge</h3>
+                                    <p>In-depth understanding of local trends.</p>
+                                </div>
                             </div>
                         </div>
                         <!-- About Facility Item End -->
 
                         <!-- About Facility Item Start -->
-                        <div class="about-facility-item wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                            <div class="icon-box">
-                                <img src="https://html.awaikenthemes.com/inspaire/images/icon-about-facility-2.svg" alt="">
-                            </div>
+                        <div class="col-lg-3">
+                            <div class="about-facility-item wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                <div class="icon-box">
+                                    <img src="https://html.awaikenthemes.com/inspaire/images/icon-about-facility-2.svg" alt="">
+                                </div>
 
-                            <div class="about-facility-content">
-                                <h3>Tailored Property Solutions</h3>
-                                <p>Customized options to meet needs. </p>
-                            </div>
-                        </div>
-                        <!-- About Facility Item End -->
-
-                        <!-- About Facility Item Start -->
-                        <div class="about-facility-item wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                            <div class="icon-box">
-                                <img src="https://html.awaikenthemes.com/inspaire/images/icon-about-facility-2.svg" alt="">
-                            </div>
-
-                            <div class="about-facility-content">
-                                <h3>Transparent Transactions</h3>
-                                <p>Clear, honest, no hidden surprises.</p>
+                                <div class="about-facility-content">
+                                    <h3>Tailored Property Solutions</h3>
+                                    <p>Customized options to meet needs. </p>
+                                </div>
                             </div>
                         </div>
                         <!-- About Facility Item End -->
 
                         <!-- About Facility Item Start -->
-                        <div class="about-facility-item wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                            <div class="icon-box">
-                                <img src="https://html.awaikenthemes.com/inspaire/images/icon-about-facility-2.svg" alt="">
-                            </div>
+                        <div class="col-lg-3">
+                            <div class="about-facility-item wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                <div class="icon-box">
+                                    <img src="https://html.awaikenthemes.com/inspaire/images/icon-about-facility-2.svg" alt="">
+                                </div>
 
-                            <div class="about-facility-content">
-                                <h3>End-to-End Support</h3>
-                                <p>Guidance from search to closing.</p>
+                                <div class="about-facility-content">
+                                    <h3>Transparent Transactions</h3>
+                                    <p>Clear, honest, no hidden surprises.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- About Facility Item End -->
+
+                        <!-- About Facility Item Start -->
+                        <div class="col-lg-3">
+                            <div class="about-facility-item wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                <div class="icon-box">
+                                    <img src="https://html.awaikenthemes.com/inspaire/images/icon-about-facility-2.svg" alt="">
+                                </div>
+
+                                <div class="about-facility-content">
+                                    <h3>End-to-End Support</h3>
+                                    <p>Guidance from search to closing of the deal.</p>
+                                </div>
                             </div>
                         </div>
                         <!-- About Facility Item End -->
                     </div>
                     <!-- About Facility List End -->
-                </div>
-            </div>
+                <!-- </div>
+            </div> -->
         </div>
     </div>
 
