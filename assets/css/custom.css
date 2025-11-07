@@ -42,7 +42,7 @@
 	--primary-color			: #192324;
 	--secondery-color		: #F8F8F8;
 	--text-color			: #283132;
-	--accent-color			: #7C877F;
+	--accent-color			: #d9bb5f;
 	--white-color			: #FFFFFF;
 	--divider-color			: #EAF0EC;
 	--dark-divider-color	: #FFFFFF1A;
@@ -279,7 +279,7 @@ body{
 	right: 0;
 	bottom: 0;
 	z-index: 1000;
-	background-color: var(--accent-color);
+	background-color: #192324;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -458,7 +458,7 @@ header.main-header .header-sticky.active{
 }
 
 .navbar{
-	padding: 30px 0;
+	padding: 20px 0;
 	align-items: center;
 	border-bottom: 1px solid var(--dark-divider-color);
 }
@@ -470,6 +470,11 @@ header.main-header .header-sticky.active .navbar{
 .navbar-brand{
 	padding: 0;
 	margin: 0;
+}
+.navbar-brand img
+{
+	width: 100%;
+	height: 77px;
 }
 
 .main-menu .nav-menu-wrapper{
@@ -867,6 +872,8 @@ header.main-header .header-sticky.active .navbar{
 	width: 100%;
 	object-fit: cover;
 	aspect-ratio: 1 / 0.76;
+	background: white;
+    padding: 10px;
 }
 
 .experience-counter{
@@ -1965,7 +1972,7 @@ header.main-header .header-sticky.active .navbar{
     justify-content: center;
     align-items: center;
     background: var(--white-color);
-    border-radius: 50%;
+    /* border-radius: 50%; */
     height: 36px;
     width: 36px;
     transition: all 0.3s ease-in-out;
@@ -1973,7 +1980,7 @@ header.main-header .header-sticky.active .navbar{
 
 .footer-social-links ul li a i{
 	font-size: 18px;
-	color: var(--accent-color);
+	color: #000;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -2181,15 +2188,17 @@ header.main-header .header-sticky.active .navbar{
 }
 
 .about-facility-list{
-	margin-top: 100px;
+	margin-top: 0px;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
 }
 
 .about-facility-item{
-	width: calc(33.33% - 20px);
-	display: flex;
+	width: calc(24% - 20px);
+	/* display: flex; */
+	box-shadow: 0 0 10px #dad7d778;
+    padding: 15px;
 }
 
 .about-facility-item .icon-box{
@@ -2197,11 +2206,14 @@ header.main-header .header-sticky.active .navbar{
 	height: 60px;
 	width: 60px;
 	background-color: var(--divider-color);
-	border-radius: 50%;
+	border-radius: 0% 0% 90% 0%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-right: 20px;
+	/* margin-right: -21px; */
+	margin-bottom: 15px;
+	margin-left: -15px;
+	margin-top: -15px;
 }
 
 .about-facility-item .icon-box:before{
@@ -2219,26 +2231,26 @@ header.main-header .header-sticky.active .navbar{
     z-index: 0;
 }
 
-.about-facility-item:hover .icon-box:before{
+/* .about-facility-item:hover .icon-box:before{
 	transform: scale(1);
-}
+} */
 
 .about-facility-item .icon-box img{
-	max-width: 24px;
+	width: 35px;
 	z-index: 1;
 	transition: all 0.4s ease-in-out;
 }
 
-.about-facility-item:hover .icon-box img{
+/* .about-facility-item:hover .icon-box img{
 	filter: brightness(0) invert(1);
-}
+} */
 
 .about-facility-content{
-	width: calc(100% - 80px);
+	width: calc(100% - 25px);
 }
 
 .about-facility-content h3{
-	font-size: 20px;
+	font-size: 18px;
 	text-transform: capitalize;
 	margin-bottom: 10px;
 }
@@ -3943,13 +3955,13 @@ header.main-header .header-sticky.active .navbar{
 		width: 45px;
 		margin-right: 10px;
 	}
-
+/* 
 	.about-facility-item .icon-box img{
 		max-width: 20px;
-	}
+	} */
 
 	.about-facility-content{
-		width: calc(100% - 55px);
+		width: 100%;
 	}
 
 	.about-facility-content h3{
@@ -4300,6 +4312,60 @@ header.main-header .header-sticky.active .navbar{
 	.section-row{
 		margin-bottom: 30px;
 	}
+	.about-us-contact-list
+	{
+		display: none;
+	}
+	.filter-group input
+	{
+		width: 100% !important;
+		border: 1px solid #eaeaea !important;
+		font-size: 13px !important;
+	}
+	.filter-group select
+	{
+		border: 1px solid #eaeaea !important;
+		font-size: 13px !important;
+	}
+	.btn-default
+	{
+		font-size: 13px !important;
+	}
+	.about-facility-list
+	{
+		margin-top: 0;
+	}
+	.hero
+	{
+		padding: 230px 0 120px !important;
+	}
+	.filters
+	{
+		border-radius: 0 !important;
+	}
+	.about-facility-content h3
+	{
+		font-size: 12px
+	}
+	.about-facility-content p
+	{
+		font-size: 13px;
+    	line-height: 20px;
+	}
+	.section-title p, .about-us-content-list ul li, .section-title-content p, .service-content p, .section-title-content.dark-section p, .how-we-work-content p, .why-choose-item-content p, .testimonial-content p
+	{
+		font-size: 13px;
+		margin-bottom: 10px !important;
+	}
+	.navbar
+	{
+		padding: 5px 0;
+	}
+	.filter-group select, .filter-group
+	{
+		width: 100% !important;
+		border-radius: 0px !important;
+	}
 
 	.section-title{
 		margin-bottom: 30px;
@@ -4307,6 +4373,11 @@ header.main-header .header-sticky.active .navbar{
 
 	.section-title h1{
 		font-size: 28px;
+		line-height: 50px;
+	}
+	.section-title
+	{
+		margin-bottom: 0;
 	}
 
 	.section-title h2{
@@ -4550,7 +4621,7 @@ header.main-header .header-sticky.active .navbar{
 	}
 
 	.about-facility-item{
-        width: 100%;
+        width: 47%;
     }
 
 	.vision-mission{
@@ -4760,4 +4831,33 @@ header.main-header .header-sticky.active .navbar{
 .search-button button
 {
 	border-radius: 50px;
+}
+.footer-logo img
+{
+	width: 100px;
+}
+.banner_btn_main
+{
+	border-bottom: none;
+	padding: 20px;
+}
+.banner_btn.active
+{
+	background: none !important;
+    border-bottom: 1px solid white !important;
+    color: white !important;
+    border: none;
+}
+.banner_btn
+{
+	background: none !important;
+    color: #c8c6c6 !important;
+    border: none;
+	padding: 0px;
+	margin-right: 35px;
+}
+.banner_btn:hover
+{
+	border: none !important;
+	border-bottom: 1px solid white !important;
 }

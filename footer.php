@@ -9,7 +9,7 @@
                             <div class="col-md-6">
                                 <!-- Footer Logo Start -->
                                 <div class="footer-logo">
-                                    <img src="assets/images/footer-logo.svg" alt="">
+                                    <img src="assets/images/ghar-jameen-svg.svg" alt="">
                                 </div>
                                 <!-- Footer Logo End -->
                             </div>
@@ -18,12 +18,13 @@
                                 <!-- Footer Social Link Start -->
                                 <div class="footer-social-links">
                                     <div class="footer-social-link-title">
-                                        <h3>follow our socials</h3>
+                                        <h3>follow us</h3>
                                     </div>
                                     <ul>
                                         <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                                         <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                                 <!-- Footer Social Link End -->
@@ -33,7 +34,7 @@
                     <!-- Footer Header End -->
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 col-6">
                     <!-- Footer Links Start -->
                      <div class="footer-links">
                         <h3>Quick Links</h3>
@@ -49,7 +50,7 @@
                     <!-- Footer Links End -->
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 col-6">
                     <!-- Footer Links Start -->
                      <div class="footer-links">
                         <h3>Property Types</h3>
@@ -119,7 +120,7 @@
                     <div class="col-md-12">
                         <!-- Footer Copyright Start -->
                         <div class="footer-copyright-text">
-                            <p>Copyright © 2025 All Rights Reserved.</p>
+                            <p>Copyright © 2025 All Rights Reserved.| Ghar Jameen | Design & Developed By <a href="" class="text-white">Jagannath Tech Solutions</a></p>
                         </div>
                         <!-- Footer Copyright End -->
                     </div>

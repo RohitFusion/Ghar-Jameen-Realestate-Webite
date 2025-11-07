@@ -36,7 +36,7 @@
 		<div class="loading-container">
 			<div class="loading"></div>
 			<div id="loading-icon">
-                <!-- <img src="assets/images/loader.svg" alt=""> -->
+                <img src="assets/images/ghar-jameen-svg.svg" alt="">
             </div>
 		</div>
 	</div>
@@ -48,8 +48,8 @@
 			<nav class="container">
 				<div class="navbar navbar-expand-lg">
 					<!-- Logo Start -->
-					<a class="navbar-brand" href="./">
-						<img src="assets/images/logo.svg" alt="Logo">
+					<a class="navbar-brand" href="/">
+						<img src="assets/images/ghar-jameen-svg.svg" alt="Logo">
 					</a>
 					<!-- Logo End -->
 

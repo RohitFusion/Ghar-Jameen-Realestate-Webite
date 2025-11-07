@@ -17,23 +17,93 @@
                             <h1 class="text-anime-style-2" data-cursor="-opaque">Where Real Estate Dreams Become Reality</h1>
                         </div>
                         <!-- Section Title End -->
-                        <div class="filters">
-                            <div class="filter-group">
-                                <select id="propertyTypeSelect" readonly="">
-                                    <option value="">Select City</option>
-                                    <option value="">Sapla</option>
-                                    <option value="">Jind</option>
-                                    <option value="">Bhadurgarh</option>
-                                    <option value="">Rothak</option>
-                                </select>
+                        <nav>
+                            <div class="nav nav-tabs banner_btn_main" id="nav-tab" role="tablist">
+                                <button class="nav-link active banner_btn" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-buy" aria-selected="true">Buy</button>
+                                <button class="nav-link banner_btn" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-rent" aria-selected="false">Rent</button>
+                                <button class="nav-link banner_btn" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-commercial" aria-selected="false">Commercial</button>
+                                <button class="nav-link banner_btn" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-plot" aria-selected="false">Plots</button>
                             </div>
-                            <div class="filter-group">
-                                <input type="text" name="prop_name" placeholder="Any Project...">
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-buy" role="tabpanel" aria-labelledby="nav-buy-tab" tabindex="0">
+                                <div class="filters">
+                                    <div class="filter-group">
+                                        <select id="propertyTypeSelect" readonly="">
+                                            <option value="">Select City</option>
+                                            <option value="">Sapla</option>
+                                            <option value="">Jind</option>
+                                            <option value="">Bhadurgarh</option>
+                                            <option value="">Rothak</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter-group">
+                                        <input type="text" name="prop_name" placeholder="Any Project...">
+                                    </div>
+                                    <div class="search-button">
+                                        <button type="submit" class="btn-default">Show Options</button>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="search-button">
-                                <button type="submit" class="btn-default">Show Options</button>
+                            <div class="tab-pane fade" id="nav-rent" role="tabpanel" aria-labelledby="nav-rent-tab" tabindex="0">
+                                <div class="filters">
+                                    <div class="filter-group">
+                                        <select id="propertyTypeSelect" readonly="">
+                                            <option value="">Select City</option>
+                                            <option value="">Sapla</option>
+                                            <option value="">Jind</option>
+                                            <option value="">Bhadurgarh</option>
+                                            <option value="">Rothak</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter-group">
+                                        <input type="text" name="prop_name" placeholder="Any Project...">
+                                    </div>
+                                    <div class="search-button">
+                                        <button type="submit" class="btn-default">Show Options</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-commercial" role="tabpanel" aria-labelledby="nav-commercial-tab" tabindex="0">
+                                <div class="filters">
+                                    <div class="filter-group">
+                                        <select id="propertyTypeSelect" readonly="">
+                                            <option value="">Select City</option>
+                                            <option value="">Sapla</option>
+                                            <option value="">Jind</option>
+                                            <option value="">Bhadurgarh</option>
+                                            <option value="">Rothak</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter-group">
+                                        <input type="text" name="prop_name" placeholder="Any Project...">
+                                    </div>
+                                    <div class="search-button">
+                                        <button type="submit" class="btn-default">Show Options</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-plot" role="tabpanel" aria-labelledby="nav-plot-tab" tabindex="0">
+                                <div class="filters">
+                                    <div class="filter-group">
+                                        <select id="propertyTypeSelect" readonly="">
+                                            <option value="">Select City</option>
+                                            <option value="">Sapla</option>
+                                            <option value="">Jind</option>
+                                            <option value="">Bhadurgarh</option>
+                                            <option value="">Rothak</option>
+                                        </select>
+                                    </div>
+                                    <div class="filter-group">
+                                        <input type="text" name="prop_name" placeholder="Any Project...">
+                                    </div>
+                                    <div class="search-button">
+                                        <button type="submit" class="btn-default">Show Options</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        
                     </div>
                     <!-- Hero Content End -->
                 </div>
@@ -42,6 +112,70 @@
     </div>
     <!-- Hero Section End -->
     
+    <div class="about-us page-about-us pb-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <!-- About Facility List Start -->
+                    <div class="about-facility-list">
+                        <!-- About Facility Item Start -->
+                        <div class="about-facility-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                            <div class="icon-box">
+                                <img src="https://html.awaikenthemes.com/inspaire/images/icon-about-facility-2.svg" alt="">
+                            </div>
+
+                            <div class="about-facility-content">
+                                <h3>Expert Market Knowledge</h3>
+                                <p>In-depth understanding of local trends.</p>
+                            </div>
+                        </div>
+                        <!-- About Facility Item End -->
+
+                        <!-- About Facility Item Start -->
+                        <div class="about-facility-item wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                            <div class="icon-box">
+                                <img src="https://html.awaikenthemes.com/inspaire/images/icon-about-facility-2.svg" alt="">
+                            </div>
+
+                            <div class="about-facility-content">
+                                <h3>Tailored Property Solutions</h3>
+                                <p>Customized options to meet needs. </p>
+                            </div>
+                        </div>
+                        <!-- About Facility Item End -->
+
+                        <!-- About Facility Item Start -->
+                        <div class="about-facility-item wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                            <div class="icon-box">
+                                <img src="https://html.awaikenthemes.com/inspaire/images/icon-about-facility-2.svg" alt="">
+                            </div>
+
+                            <div class="about-facility-content">
+                                <h3>Transparent Transactions</h3>
+                                <p>Clear, honest, no hidden surprises.</p>
+                            </div>
+                        </div>
+                        <!-- About Facility Item End -->
+
+                        <!-- About Facility Item Start -->
+                        <div class="about-facility-item wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                            <div class="icon-box">
+                                <img src="https://html.awaikenthemes.com/inspaire/images/icon-about-facility-2.svg" alt="">
+                            </div>
+
+                            <div class="about-facility-content">
+                                <h3>End-to-End Support</h3>
+                                <p>Guidance from search to closing.</p>
+                            </div>
+                        </div>
+                        <!-- About Facility Item End -->
+                    </div>
+                    <!-- About Facility List End -->
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- About Us Section Start -->
     <div class="about-us">
         <div class="container">
@@ -52,7 +186,7 @@
                         <!-- About Image 1 Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="assets/images/about-img-1.jpg" alt="">
+                                <img src="assets/images/abt.webp" alt="">
                             </figure>
                         </div>
                         <!-- About Image 1 End -->
@@ -60,7 +194,7 @@
                         <!-- About Image 2 Start -->
                         <div class="about-img-2">
                             <figure class="image-anime reveal">
-                                <img src="assets/images/about-img-2.jpg" alt="">
+                                <img src="assets/images/abt1.webp" alt="">
                             </figure>
 
                             <!-- Feedback Counter Start -->
@@ -82,8 +216,8 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">about us</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Our passion for design, your <span>vision realized</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Our dedicated team of designers works closely with you to understand your vision and bring it to life with thoughtful attention to detail. Whether it's transforming a single room or an entire home.</p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Your Trusted Partner in Finding the  <span>Perfect Property</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Welcome to <b>Ghar Jameen</b> Real Estate, where your journey to finding the perfect home or investment property begins. As a trusted and experienced name in the real estate industry, we pride ourselves on offering tailored solutions for both buyers and sellers, with a focus on transparency, integrity, and customer satisfaction.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -94,8 +228,8 @@
                                 <!-- About Us Content List Start -->
                                 <div class="about-us-content-list wow fadeInUp" data-wow-delay="0.4s">
                                     <ul>
-                                        <li>creative expertise</li>
-                                        <li>client-centered approach</li>
+                                        <li>Expert Guidance Every Step of the Way</li>
+                                        <li>Dedicated to Your Success</li>
                                     </ul>
                                 </div>
                                 <!-- About Us Content List End -->
@@ -271,7 +405,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title dark-section">
                         <h3 class="wow fadeInUp">how we work</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">From concept to completion in<span> our work</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Your Seamless Real Estate <span> Journey</span></h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -279,7 +413,7 @@
                 <div class="col-lg-6">
                     <!-- Section Title Content Start -->
                     <div class="section-title-content dark-section">
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">Our comprehensive approach guides you through each phase of the design process, from initial brainstorming and conceptualization.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">At Ghar Jameen, we follow a simple, transparent process to ensure your real estate experience is smooth and successful:</p>
                     </div>
                     <!-- Section Title Content End -->
                 </div>
@@ -291,48 +425,36 @@
                     <div class="how-we-work-list">
                         <!-- How We Item Start -->
                         <div class="how-we-work-item wow fadeInUp">
-                            <div class="icon-box">
-                                <img src="images/icon-how-we-work-1.svg" alt="">
-                            </div>
                             <div class="how-we-work-content">
-                                <h3>01. initial consultation</h3>
-                                <p>We start with a one-on meeting to understand your vision preferences and requirement.</p>
+                                <h3>01. Consultation</h3>
+                                <p>We begin by understanding your needs, preferences, and goals to tailor the right real estate strategy.</p>
                             </div>
                         </div>
                         <!-- How We Item End -->
 
                         <!-- How We Item Start -->
                         <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="icon-box">
-                                <img src="images/icon-how-we-work-2.svg" alt="">
-                            </div>
                             <div class="how-we-work-content">
-                                <h3>02. design planning</h3>
-                                <p>This involves selecting materials, and layouts, furnishings, as well as creating 3D renderings.</p>
+                                <h3>02. Property Search</h3>
+                                <p>Using market insights, we identify properties that match your criteria, providing you with the best options.</p>
                             </div>
                         </div>
                         <!-- How We Item End -->
 
                         <!-- How We Item Start -->
                         <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="icon-box">
-                                <img src="images/icon-how-we-work-3.svg" alt="">
-                            </div>
                             <div class="how-we-work-content">
-                                <h3>03. project execution</h3>
-                                <p>With the design plans in this place, we manage and coordinate all aspects of the projects.</p>
+                                <h3>03. Negotiation & Deal Closure</h3>
+                                <p>Our experienced team handles negotiations to secure the best deal, ensuring a smooth and efficient transaction.</p>
                             </div>
                         </div>
                         <!-- How We Item End -->
 
                         <!-- How We Item Start -->
                         <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="icon-box">
-                                <img src="images/icon-how-we-work-4.svg" alt="">
-                            </div>
                             <div class="how-we-work-content">
-                                <h3>04. final review</h3>
-                                <p>After completing project we conduct a thorough walkthrough with you to review the space.</p>
+                                <h3>04. Post-Sale Support</h3>
+                                <p>Even after the deal, we offer continued support, ensuring your property investment stays secure and well-managed.</p>
                             </div>
                         </div>
                         <!-- How We Item End -->
@@ -596,8 +718,8 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">why choose us</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">A behind the scenes look at <span>our agency</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">From concept to completion, discover how we bring your vision to life with innovation, collaboration, and expert craftsmanship.</p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">What Sets Us <span>Apart?</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">At Ghar Jameen, we offer expert guidance, personalized service, and unwavering integrity to help you make informed, confident real estate decisions.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -613,8 +735,8 @@
 
                                 <!-- Why Choose Item Content Start -->
                                 <div class="why-choose-item-content">
-                                    <h3>tailored design solutions</h3>
-                                    <p>We provide personalized interior design services that reflect your unique vision and lifestyle.</p>
+                                    <h3>Expert Knowledge</h3>
+                                    <p>Our experienced team provides trusted advice and in-depth market insights to guide your decisions.</p>
                                 </div>
                                 <!-- Why Choose Item Content End -->
                             </div>
@@ -630,8 +752,8 @@
 
                                 <!-- Why Choose Item Content Start -->
                                 <div class="why-choose-item-content">
-                                    <h3>Seamless Project Management</h3>
-                                    <p>We handle the entire design process, from concept to completion, with flawless execution.</p>
+                                    <h3>Personalized Service</h3>
+                                    <p>We listen to your needs, offering tailored solutions to ensure a seamless, satisfying experience.</p>
                                 </div>
                                 <!-- Why Choose Item Content End -->
                             </div>
@@ -647,8 +769,8 @@
 
                                 <!-- Why Choose Item Content Start -->
                                 <div class="why-choose-item-content">
-                                    <h3>Client-Centered Collaboration</h3>
-                                    <p>Your input is valued throughout the entire process, ensuring your vision is fully realized.</p>
+                                    <h3>Integrity & Transparency</h3>
+                                    <p>We prioritize honesty and transparency, ensuring clear communication and no hidden fees throughout the process.</p>
                                 </div>
                                 <!-- Why Choose Item Content End -->
                             </div>
@@ -667,7 +789,7 @@
                             <!-- Why Choose img 1 Start -->
                             <div class="why-choose-img-1">
                                 <figure class="image-anime reveal">
-                                    <img src="assets/images/why-choose-img-1.jpg" alt="">
+                                    <img src="assets/images/why.webp" alt="">
                                 </figure>
                             </div>
                             <!-- Why Choose img 1 End -->
@@ -695,7 +817,7 @@
                             <!-- Why Choose img 4 Start -->
                             <div class="why-choose-img-4">
                                 <figure class="image-anime reveal">
-                                    <img src="assets/images/why-choose-img-4.jpg" alt="">
+                                    <img src="assets/images/why1.webp" alt="">
                                 </figure>
                             </div>
                             <!-- Why Choose img 4 End -->
@@ -717,7 +839,7 @@
                     <!-- Our Testimonial Image Start -->
                     <div class="our-testimonials-image">
                         <figure class="image-anime">
-                            <img src="./assets/images/testimonial-img.jpg" alt="">
+                            <img src="./assets/images/test.jpg" alt="">
                         </figure>
                     </div>
                     <!-- Our Testimonial Image End -->
@@ -825,7 +947,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">latest Blogs</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Explore Our Latest Blogs </span> & Property Tips</h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Explore Our Latest Blogs &<span> Property Tips</span></h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -839,7 +961,7 @@
                         <div class="post-featured-image">
                             <figure>
                                 <a href="" class="image-anime" data-cursor-text="View">
-                                    <img src="assets/images/post-1.jpg" alt="">
+                                    <img src="assets/images/ganga.webp" alt="">
                                 </a>
                             </figure>
                         </div>
@@ -849,7 +971,7 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h3><a href="">How Does One Go About a Buying Furniture?</a></h3>
+                                <h3><a href="">Ganga Realty Liv 89 Gurgaon: Tailored for the Urban Family</a></h3>
                             </div>
                             <!-- Post Item Content End -->
 
@@ -871,7 +993,7 @@
                         <div class="post-featured-image">
                             <figure>
                                 <a href="" class="image-anime" data-cursor-text="View">
-                                    <img src="assets/images/post-2.jpg" alt="">
+                                    <img src="assets/images/mvn.webp" alt="">
                                 </a>
                             </figure>
                         </div>
@@ -881,7 +1003,7 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h3><a href="">Innovative Décor Ideas Shaping Homes Today</a></h3>
+                                <h3><a href="">MVN Mall Gurgaon: Where Convenience Meets Luxury</a></h3>
                             </div>
                             <!-- Post Item Content End -->
 
@@ -903,7 +1025,7 @@
                         <div class="post-featured-image">
                             <figure>
                                 <a href="" class="image-anime" data-cursor-text="View">
-                                    <img src="assets/images/post-3.jpg" alt="">
+                                    <img src="assets/images/landmark.jpg" alt="">
                                 </a>
                             </figure>
                         </div>
@@ -913,7 +1035,7 @@
                         <div class="post-item-body">
                             <!-- Post Item Content Start -->
                             <div class="post-item-content">
-                                <h3><a href="">Design Industry Updates You Should Know About</a></h3>
+                                <h3><a href="">Landmark The Residency – A landmark of luxury in Gurgaon</a></h3>
                             </div>
                             <!-- Post Item Content End -->
 
